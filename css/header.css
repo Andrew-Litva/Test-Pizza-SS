@@ -1,0 +1,77 @@
+.header__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 60px;
+    color: #000;
+}
+
+.logo a {
+    transition: color 0.3s linear;
+}
+
+.logo a:hover {
+    transition: color 0.3s linear;
+    color: rgba(231, 128, 60, 0.89);
+}
+
+.header__header .delivery {
+    position: absolute;
+    left: 25%;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.header__tel-auth {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 17px;
+    height: 24px;
+}
+
+.header__tel-auth .header__tel {
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+.header__tel-auth i {
+    font-size: 25px;
+    padding-right: 5px;
+}
+
+.header__tel-auth .header__tel a {
+    transition: color 0.3s linear;
+}
+
+.header__tel-auth .header__tel span {
+    position: relative;
+    top: -4px;
+}
+
+.header__tel-auth .header__tel a:hover {
+    color: rgb(225, 0, 0);
+    transition: color 0.3s linear;
+}
+
+.auth__block a {
+    transition: color 0.3s linear;
+}
+
+.auth__block a:hover {
+    color: rgb(225, 0, 0);
+    transition: color 0.3s linear;
+}
+
+.auth__block span {
+    position: relative;
+    top: -4px;
+}

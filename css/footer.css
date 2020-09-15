@@ -1,0 +1,51 @@
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: #cfcdcd8a;
+    /* position: absolute;
+    left: 0;
+    bottom: 0; */
+}
+
+
+.footer__foo {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    height: 80px;
+    padding: 20px 0;
+}
+
+.f__logo {
+    position: relative;
+    top: 5px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.f__logo:hover a{
+    color: coral;
+    border-bottom: 1px solid rgb(236, 24, 24) ;
+}
+
+.f__num {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.f__num:hover a {
+    color: coral;
+    border-bottom: 1px solid rgb(236, 24, 24) ;
+}
+
+.f__network {
+    font-size: 32px;
+}
+
+.f__network .fa-facebook:hover  {
+    color: rgb(2, 7, 255);
+}
+.f__network .fa-instagram-square:hover {
+    color: rgb(255, 166, 2);
+}
